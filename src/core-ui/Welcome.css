@@ -1,9 +1,11 @@
+@import './config.css';
+
 .Welcome {
     width:100%;
     height:100vh;
     background: url(../assets/img/welcome.svg);
     background-size: cover;
-    /* background: red; */
+    background-position: center center;
 }
 
 .WelcomeContent {
@@ -15,17 +17,72 @@
 }
 
 .ButtonFull {
-    width: 30%;
+    width: 40%;
+    height: 9vh;
     border-color: white;
     margin-top: auto;
     margin-bottom: auto;
     background: var(--blue-gradient);
     border-radius: 66px;
     color: var(--background-color);
-    height: 5vh;
     box-shadow: none;
+    margin-right: 4%;
+    font-family: var(--inter-regular);
+    font-size: clamp(1rem, 0.5000rem + 1.12500vw, 3.5rem);
+}
+
+.ButtonEmpty {
+    width: 40%;
+    height: 9vh;
+    border-color: var(--lightblue);
+    margin-top: auto;
+    margin-bottom: auto;
+    background: transparent;
+    border-radius: 66px;
+    color: var(--lightblue);
+    box-shadow: none;
+    font-family: var(--inter-regular);
+    font-size: clamp(1rem, 0.5000rem + 1.125000vw, 3.5rem);
+}
+
+.ButtonContainerWelcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .HigherText {
     display:inherit;
 }
+
+.bodyText {
+    font-family: var(--inter-regular);
+    font-size: clamp(1rem, 0.5000rem + 1.25000vw, 3.5rem);
+    margin-bottom: 8%;
+}
+
+.titleText {
+    font-family: var(--rubik-bold);
+    font-size: clamp(1rem, 0.5000rem + 3.75000vw, 3.5rem);
+    color: var(--black);
+    margin-bottom: 3%;
+}
+
+.subtitleText {
+    font-family: var(--rubik-regular);
+    font-size: clamp(1rem, 0.5000rem + 1.4375vw, 3.5rem);
+    white-space: nowrap;
+    color: var(--black);
+    margin-bottom: 3%;
+}
+
+.subtitleTextBlue {
+    display: inline-block;
+    font-family: var(--rubik-light);
+    color: var(--lightblue);
+    text-decoration-line: underline;
+    text-decoration-color: var(--darkblue);
+    text-decoration-thickness: 3px;
+    
+}
+

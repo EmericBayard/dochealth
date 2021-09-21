@@ -1,9 +1,16 @@
 :root {
     --background-color: #E5E5E5;
     --basic-font: Helvetica;
-    --custom-font: Rubik;
+    --custom-font: rubik;
+    --rubik-regular: rubik-regular;
+    --rubik-bold: rubik-bold;
+    --rubik-light: rubik-light;
+    --inter-regular: inter-regular;
     --black: #031126;
+    --lightblue: #3E8AFC;
+    --darkblue: #0C6AF6;
     --blue-gradient: linear-gradient(#3E8AFC 0%, #0C6AF6 100%);
+    --webkit-blue-gradient: -webkit-linear-gradient(#3E8AFC 0%, #0C6AF6 100%);
     --paragraphe-color: #242526;
     --body-font-size:16px;
     --text-input-font-size: 16px;
@@ -11,9 +18,37 @@
 }
 
 @font-face {
-    --font-family: "rubik";
+    font-family: "rubik-regular";
+    font-display: swap;
+    src: url('../assets/font/Rubik/static/Rubik-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "inter-regular";
+    font-display: swap;
+    src : url('../assets/font/Inter/static/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "rubik-body";
     font-display: swap;
     src: url('../assets/font/Rubik/static/Rubik-Black.ttf') format('truetype');
+}
 
+@font-face {
+    font-family: "rubik-title";
+    font-display: swap;
+    src: url('../assets/font/Rubik/static/Rubik-Black.ttf') format('truetype');
+}
 
+@font-face {
+    font-family: "rubik-bold";
+    font-display: swap;
+    src: url('../assets/font/Rubik/static/Rubik-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "rubik-light";
+    font-display: swap;
+    src: url('../assets/font/Rubik/static/Rubik-Light.ttf') format('truetype');
 }

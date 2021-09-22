@@ -5,12 +5,14 @@ import './core-ui/index.css';
 import reportWebVitals from './core-ux/reportWebVitals';
 import NavBar from './components/Navbar/Navbar';
 import Welcome from './components/Welcome/Welcome';
+import WorkContent from './components/WorkContent/WorkContent';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <NavBar /> */}
     {/* <App /> */}
     <Welcome />
+    <WorkContent />
   </React.StrictMode>,
   document.getElementById('root')
 );

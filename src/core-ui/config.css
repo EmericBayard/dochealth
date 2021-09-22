@@ -6,15 +6,15 @@
     --rubik-bold: rubik-bold;
     --rubik-light: rubik-light;
     --inter-regular: inter-regular;
+    --inter-light: inter-light;
     --black: #031126;
     --lightblue: #3E8AFC;
     --darkblue: #0C6AF6;
     --blue-gradient: linear-gradient(#3E8AFC 0%, #0C6AF6 100%);
     --webkit-blue-gradient: -webkit-linear-gradient(#3E8AFC 0%, #0C6AF6 100%);
     --paragraphe-color: #242526;
-    --body-font-size:16px;
-    --text-input-font-size: 16px;
-    --secondary-input-font-size: 14px;
+    --font-size-2-5: clamp(1rem, 0.5000rem + 2.5000vw, 3.5rem);
+    --font-size-1-125: clamp(1rem, 0.5000rem + 1.125000vw, 3.5rem);
 }
 
 @font-face {
@@ -27,6 +27,12 @@
     font-family: "inter-regular";
     font-display: swap;
     src : url('../assets/font/Inter/static/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "inter-light";
+    font-display: swap;
+    src : url('../assets/font/Inter/static/Inter-Light.ttf') format('truetype');
 }
 
 @font-face {
@@ -51,4 +57,48 @@
     font-family: "rubik-light";
     font-display: swap;
     src: url('../assets/font/Rubik/static/Rubik-Light.ttf') format('truetype');
+}
+
+.underlineBlueText {
+    display: inline-block;
+    font-family: var(--rubik-light);
+    color: var(--lightblue);
+    text-decoration-line: underline;
+    text-decoration-color: var(--darkblue);
+    text-decoration-thickness: 3px;
+}
+
+.bodyText {
+    font-family: var(--inter-regular);
+    font-size: clamp(1rem, 0.5000rem + 1.25000vw, 3.5rem);
+    margin-bottom: 8%;
+}
+
+.secondaryBodyText {
+    font-family: var(--inter-light);
+    font-size: clamp(1rem, 0.5000rem + 1.0625vw, 3.5rem);
+    margin-bottom: 8%;
+}
+
+.titleText {
+    font-family: var(--rubik-bold);
+    font-size: clamp(1rem, 0.5000rem + 3.75000vw, 3.5rem);
+    color: var(--black);
+    margin-bottom: 3%;
+}
+
+.subtitleText {
+    font-family: var(--rubik-regular);
+    font-size: clamp(1rem, 0.5000rem + 1.4375vw, 3.5rem);
+    white-space: nowrap;
+    color: var(--black);
+    margin-bottom: 3%;
+}
+
+.subtitleTextBold {
+    font-family: var(--rubik-bold);
+    font-size: clamp(1rem, 0.5000rem + 1.4375vw, 3.5rem);
+    white-space: nowrap;
+    color: var(--black);
+    margin-bottom: 3%;
 }

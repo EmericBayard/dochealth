@@ -24,11 +24,12 @@
     margin-bottom: auto;
     background: var(--blue-gradient);
     border-radius: 66px;
-    color: var(--background-color);
+    color: white;
     box-shadow: none;
     margin-right: 4%;
     font-family: var(--inter-regular);
     font-size: clamp(1rem, 0.5000rem + 1.12500vw, 3.5rem);
+    box-shadow: 8px 4px 9px var(--lightblue);
 }
 
 .ButtonEmpty {
@@ -37,12 +38,25 @@
     border-color: var(--lightblue);
     margin-top: auto;
     margin-bottom: auto;
-    background: transparent;
+    background: white;
     border-radius: 66px;
     color: var(--lightblue);
     box-shadow: none;
     font-family: var(--inter-regular);
     font-size: clamp(1rem, 0.5000rem + 1.125000vw, 3.5rem);
+    box-shadow: 8px 4px 9px var(--lightblue);
+}
+
+.ButtonFull:hover {
+    transition: all 0.4s;
+    transform:scale(1.1,1.1);
+    box-shadow: none;
+}
+
+.ButtonEmpty:hover {
+    transition: all 0.4s;
+    transform:scale(1.1,1.1);
+    box-shadow: none;
 }
 
 .ButtonContainerWelcome {
@@ -53,36 +67,5 @@
 
 .HigherText {
     display:inherit;
-}
-
-.bodyText {
-    font-family: var(--inter-regular);
-    font-size: clamp(1rem, 0.5000rem + 1.25000vw, 3.5rem);
-    margin-bottom: 8%;
-}
-
-.titleText {
-    font-family: var(--rubik-bold);
-    font-size: clamp(1rem, 0.5000rem + 3.75000vw, 3.5rem);
-    color: var(--black);
-    margin-bottom: 3%;
-}
-
-.subtitleText {
-    font-family: var(--rubik-regular);
-    font-size: clamp(1rem, 0.5000rem + 1.4375vw, 3.5rem);
-    white-space: nowrap;
-    color: var(--black);
-    margin-bottom: 3%;
-}
-
-.subtitleTextBlue {
-    display: inline-block;
-    font-family: var(--rubik-light);
-    color: var(--lightblue);
-    text-decoration-line: underline;
-    text-decoration-color: var(--darkblue);
-    text-decoration-thickness: 3px;
-    
 }
 

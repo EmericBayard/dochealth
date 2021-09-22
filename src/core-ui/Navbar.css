@@ -89,3 +89,8 @@
     height: 5vh;
     box-shadow: none;
 }
+
+.Button:hover {
+    transition: all 0.4s;
+    transform:scale(1.1,1.1);
+}

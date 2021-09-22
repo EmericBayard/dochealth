@@ -20,7 +20,7 @@ function Navbar() {
         if(b) {
             return ( 
             <div>
-                <menu className = "DropdownMenu">
+                <menu className="DropdownMenu">
                     <li>Home</li>
                     <li>Work</li>
                     <li>About</li>

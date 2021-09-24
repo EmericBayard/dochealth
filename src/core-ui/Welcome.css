@@ -69,3 +69,13 @@
     display:inherit;
 }
 
+@media screen and (max-width: 715px) {
+    .WelcomeContent {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}

@@ -63,3 +63,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 20/09/2021 : 
         .       Installation de jest, création des tests pour la navbar
         .       Utilisation de clamp() pour la police responsiv : https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/
+24/09/2021:
+        . Début du aboutme

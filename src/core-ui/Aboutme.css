@@ -1,0 +1,185 @@
+@import './config.css';
+
+
+.Aboutme {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    margin-top: 0%;
+}
+
+.AboutmeData {
+    width: 45%;
+    height:100%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.AboutmeImg {
+    width: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+.Cart {
+    background: white;
+    width: 70%;
+    margin-top: -10%;
+    margin-left: 20%;
+    z-index: 1;
+    position: relative;
+    border-radius: 2%;
+    box-shadow: 4px 8px 34px 10px rgba(1, 26, 25, 0.1);
+}
+
+.AboutmeText {
+    width: 45%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.DocInfo {
+    display: flex;
+    flex-direction:row;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 10%;
+}
+
+.DocInfoText {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.DocRating {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.DocStarRate {
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    color:#021126;
+    font-size: clamp(1rem,  0.5vw, 3.5rem);
+    margin-top: 27%;
+}
+
+@media screen and (max-width: 1024px) {
+    .Aboutme {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .AboutmeData {
+        width: 100%;
+    }
+
+    .AboutmeText {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Cart {
+        width: 100%;
+        margin-right:auto;
+        margin-left:auto;
+        margin-top: -30%;
+    }
+
+    .AboutmeImg {
+        opacity: 0.5;
+    }
+}
+
+.DocRate {
+    width: 50%;
+    height:auto;
+    display:flex!important;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+
+.DocChart {
+    height: auto;
+}
+
+.DocRate > * {
+        width: 100%;
+        
+}
+
+
+
+.DoctorName {
+    color: #0BCCC5; 
+    
+}
+
+.DoctorDescription {
+    color: #242526;
+    
+}
+
+.DocTel {
+    display: flex;
+    flex-direction: row;
+}
+
+.PhoneLogo {
+    margin-right: 6%;
+    width: 10%;
+}
+
+.faStarFull {
+    color:#FCB43A;
+}
+
+.faStarEmpty {
+    color:#FFFFFF;
+}
+
+.ButtonFull {
+    width: 40%;
+    height: 9vh;
+    border-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: var(--blue-gradient);
+    border-radius: 66px;
+    color: white;
+    box-shadow: none;
+    margin-right: 4%;
+    font-family: var(--inter-regular);
+    font-size: clamp(1rem, 0.5000rem + 1.12500vw, 3.5rem);
+    box-shadow: 8px 4px 9px var(--lightblue);
+}
+
+.DocNumber {
+    white-space: nowrap;
+}
+
+.slider1 {
+    width: 100%;
+    height: 500px;
+    background: red;
+}
+
+.slider2 {
+    width: 100%;
+    height: 500px;
+    background: blue;
+}

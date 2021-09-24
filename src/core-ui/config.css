@@ -6,6 +6,7 @@
     --rubik-bold: rubik-bold;
     --rubik-light: rubik-light;
     --inter-regular: inter-regular;
+    --inter-bold: inter-bold;
     --inter-light: inter-light;
     --black: #031126;
     --lightblue: #3E8AFC;
@@ -27,6 +28,12 @@
     font-family: "inter-regular";
     font-display: swap;
     src : url('../assets/font/Inter/static/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "inter-bold";
+    font-display: swap;
+    src : url('../assets/font/Inter/static/Inter-Bold.ttf') format('truetype');
 }
 
 @font-face {
@@ -74,8 +81,21 @@
     margin-bottom: 8%;
 }
 
+
 .secondaryBodyText {
     font-family: var(--inter-light);
+    font-size: clamp(1rem, 0.5000rem + 1.0625vw, 3.5rem);
+    margin-bottom: 8%;
+}
+
+.thirdBodyText {
+    font-family: var(--inter-light);
+    font-size: clamp(1rem, 0.5000rem + 0.75000vw, 3.5rem);
+    margin-bottom: 8%;
+}
+
+.InterBold {
+    font-family: var(--inter-bold);
     font-size: clamp(1rem, 0.5000rem + 1.0625vw, 3.5rem);
     margin-bottom: 8%;
 }

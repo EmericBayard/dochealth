@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../assets/img/logo.svg';
 import '../../core-ui/Welcome.css';
 import Navbar from '../Navbar/Navbar';
 

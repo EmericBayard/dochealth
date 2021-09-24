@@ -16,7 +16,7 @@ describe("Navbar testing", () => {
   });
 
   test('navbar comportement', () => { 
-    console.log(wrapper.find('.Menu').children())
+    console.log(wrapper.find('.Menu').children().getElements())
     // expect(wrapper.find('.Menu').children()).toHaveLength(0);
     expect(wrapper.find(".Button").text()).toContain("Sign in")
   });

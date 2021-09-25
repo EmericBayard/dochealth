@@ -59,8 +59,12 @@
 }
 
 .redCircle:hover {
-    border-radius:  0%;
     transition:0.3s ease-in-out;
+}
+
+.workContentLogoRed:hover {
+    width: 70%;
+    transition:0.4s ease-in-out;
 }
 
 .brown {
@@ -86,8 +90,12 @@
 }
 
 .brownCircle:hover {
-    border-radius:  0%;
     transition:0.3s ease-in-out;
+}
+
+.workContentLogoBrown:hover {
+    width: 70%;
+    transition:0.4s ease-in-out;
 }
 
 .green {
@@ -113,8 +121,11 @@
 }
 
 .greenCircle:hover {
-    border-radius:  0%;
     transition:0.3s ease-in-out;
+}
+.workContentLogoGreen:hover {
+    width: 70%;
+    transition:0.4s ease-in-out;
 }
 
 .blue {
@@ -140,8 +151,12 @@
 }
 
 .blueCircle:hover {
-    border-radius:  0%;
     transition:0.3s ease-in-out;
+}
+
+.workContentLogoBlue:hover {
+    width: 70%;
+    transition:0.4s ease-in-out;
 }
 
 .workContentLogo {

@@ -13,28 +13,28 @@ function WorkContent() {
             <div className="carac">
                 <div className="red">
                     <div className="redCircle">
-                        <img className="workContentLogo" src={redLogo} alt="patient"/>
+                        <img className="workContentLogo workContentLogoRed" src={redLogo} alt="patient"/>
                     </div>
                     <div className="subtitleTextBold subtitleTextWC">Patient Safety</div>
                     <div className="secondaryBodyText secondaryBodyTextWC">feugiat viverra est suspendis porta tortor commodo</div>
                 </div>
                 <div className="brown">
                     <div className="brownCircle">
-                        <img className="workContentLogo" src={brownLogo} alt="care"/>
+                        <img className="workContentLogo workContentLogoBrown" src={brownLogo} alt="care"/>
                     </div>
                     <div className="subtitleTextBold subtitleTextWC">Well Cared</div>
                     <div className="secondaryBodyText secondaryBodyTextWC">feugiat viverra est suspendis porta tortor commodo</div>
                 </div>
                 <div className="green">
                     <div className="greenCircle">
-                        <img className="workContentLogo" src={greenLogo} alt="service"/>
+                        <img className="workContentLogo workContentLogoGreen" src={greenLogo} alt="service"/>
                     </div>
                     <div className="subtitleTextBold subtitleTextWC">24/7 Service</div>
                     <div className="secondaryBodyText secondaryBodyTextWC">feugiat viverra est suspendis porta tortor commodo</div>
                 </div>
                 <div className="blue">
                     <div className="blueCircle">
-                        <img className="workContentLogo" src={blueLogo} alt="online"/>
+                        <img className="workContentLogo workContentLogoBlue" src={blueLogo} alt="online"/>
                     </div>
                     <div className="subtitleTextBold subtitleTextWC">Online support</div>
                     <div className="secondaryBodyText secondaryBodyTextWC">feugiat viverra est suspendis porta tortor commodo</div>

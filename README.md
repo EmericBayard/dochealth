@@ -65,3 +65,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
         .       Utilisation de clamp() pour la police responsiv : https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/
 24/09/2021:
         . Début du aboutme
+        . Fin du aboutme après 8h de travail, ajout d'un carousel et d'un module de chart très pratique : https://www.npmjs.com/package/echarts-for-react
+        . Module de carousel : https://www.npmjs.com/package/react-slick super cool aussi
+        

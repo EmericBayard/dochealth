@@ -6,6 +6,7 @@ import reportWebVitals from './core-ux/reportWebVitals';
 import Welcome from './components/Welcome/Welcome';
 import WorkContent from './components/WorkContent/WorkContent';
 import Aboutme from './components/Aboutme/Aboutme';
+// Import the functions you need from the SDKs you need
 
 ReactDOM.render(
   <React.StrictMode>

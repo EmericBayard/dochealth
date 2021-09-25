@@ -12,7 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import db from '../../constants/firebase';
 import { collection, getDocs } from 'firebase/firestore';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
     
 
 
@@ -41,7 +41,7 @@ const getDoctors= async function() {
 
 
 
-let data =  [
+let dataDefault =  [
     {
         name:"Chris",
         surname:"Pratt",
@@ -137,10 +137,12 @@ const fullIcon =  <FontAwesomeIcon icon={faStar} className="faStarFull"/>
 const emptyIcon = <FontAwesomeIcon icon={faStar} className="faStarEmpty"/>
 
 function Aboutme() {
+    const [data, setData] = useState(dataDefault);
     useEffect(() => {
         // Create an scoped async function in the hook
         async function anyNameFunction() {
-          await getDoctors();
+            let dataDB = await getDoctors();
+            setData(dataDB)
         }    // Execute the created function directly
         anyNameFunction();
       }, []);

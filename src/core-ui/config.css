@@ -14,8 +14,6 @@
     --blue-gradient: linear-gradient(#3E8AFC 0%, #0C6AF6 100%);
     --webkit-blue-gradient: -webkit-linear-gradient(#3E8AFC 0%, #0C6AF6 100%);
     --paragraphe-color: #242526;
-    --font-size-2-5: clamp(1rem, 0.5000rem + 2.5000vw, 3.5rem);
-    --font-size-1-125: clamp(1rem, 0.5000rem + 1.125000vw, 3.5rem);
 }
 
 @font-face {

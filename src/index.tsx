@@ -7,12 +7,10 @@ import Welcome from './components/Welcome/Welcome';
 import WorkContent from './components/WorkContent/WorkContent';
 import Aboutme from './components/Aboutme/Aboutme';
 // Import the functions you need from the SDKs you need
-
+import MainPage from './pages/main/mainPage';
 ReactDOM.render(
   <React.StrictMode>
-    <Welcome />
-    <WorkContent />
-    <Aboutme />
+    <MainPage/>
   </React.StrictMode>,
   document.getElementById('root')
 );

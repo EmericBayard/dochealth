@@ -102,9 +102,9 @@ const formalizeData = function(data:any) {
               borderWidth: 2
             },
             label: {
-              show: true,
+              show: false,
               backgroundColor: "#fff",
-              fontSize: '30',
+              fontSize: 'clamp(1rem, 0.5000rem + 0.25000vw, 3.5rem)',
               fontWeight: 'bold',
               color: "#031126",
               position: 'center',
@@ -114,7 +114,7 @@ const formalizeData = function(data:any) {
             emphasis: {
               label: {
                 show: true,
-                fontSize: '30',
+                fontSize: 'clamp(1rem, 0.5000rem + 0.25000vw, 3.5rem)',
                 fontWeight: 'bold',
                 color: "#031126"
               }

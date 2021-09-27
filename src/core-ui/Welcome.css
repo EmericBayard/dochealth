@@ -5,14 +5,14 @@
     height:100vh;
     background: url(../assets/img/welcome.svg);
     background-size: cover;
-    background-position: center center;
-}
+    background-position: center;
+} 
 
 .WelcomeContent {
     display: flex;
     flex-direction: column;
     margin-top: 10%;
-    width:50%;
+    width:44%;
     margin-left: 6%;
 }
 
@@ -73,9 +73,17 @@
     .WelcomeContent {
         display: flex;
         flex-direction: column;
-        margin-top: 10%;
+        margin-top: 20vh;
         width:90%;
         margin-left:auto;
         margin-right:auto;
     }
+
+    .Welcome {
+        width:100%;
+        height:100vh;
+        background-image: url(../assets/img/welcome_transparency.svg);
+        background-size: cover;
+        background-position: 80% 20%;
+    } 
 }

@@ -19,7 +19,7 @@ function Navbar() {
     const menuOpen = (b:Boolean) => {
         if(b) {
             return ( 
-            <div>
+            <div className="Dropdown">
                 <menu className="DropdownMenu">
                     <li>Home</li>
                     <li>Work</li>
@@ -62,13 +62,14 @@ function Navbar() {
        }
   return (
     <div className="Navbar">
-        <img className={!isOpen ? 'Logo' : 'Logo'} src={Logo} alt="health care logo"/>
-        
-        <div className="Hamburger">
+        <img className='Logo' src={Logo} alt="health care logo"/>
+        <div className="DropdownContent">
+            <div className="Hamburger">
             <Hamburger  color="#0C6AF6" toggled={isOpen} toggle={setOpen} onToggle={toggled => {
             }}/>
+            </div>
+            {menuOpen(isOpen)}
         </div>
-        {menuOpen(isOpen)}
     </div>
   );
 }

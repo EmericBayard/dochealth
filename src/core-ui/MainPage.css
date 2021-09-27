@@ -1,0 +1,6 @@
+@import '../core-ui/config';
+
+.MainPage {
+    display: flex;
+    flex-direction: column;
+}

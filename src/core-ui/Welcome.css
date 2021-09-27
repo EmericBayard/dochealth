@@ -30,6 +30,7 @@
     font-family: var(--inter-regular);
     font-size: clamp(1rem, 0.5000rem + 1.12500vw, 3.5rem);
     box-shadow: 8px 4px 9px var(--lightblue);
+    
 }
 
 .ButtonEmpty {

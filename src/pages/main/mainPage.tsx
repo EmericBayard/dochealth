@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../assets/img/logo.svg';
 import '../../core-ui/MainPage.css';
 import Welcome from '../../components/Welcome/Welcome';
 import WorkContent from '../../components/WorkContent/WorkContent';

@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import './core-ui/index.css';
 // import App from './components/App/App';
 import reportWebVitals from './core-ux/reportWebVitals';
-import Welcome from './components/Welcome/Welcome';
-import WorkContent from './components/WorkContent/WorkContent';
-import Aboutme from './components/Aboutme/Aboutme';
 // Import the functions you need from the SDKs you need
 import MainPage from './pages/main/mainPage';
 ReactDOM.render(
